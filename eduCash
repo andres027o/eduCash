@@ -1,8 +1,8 @@
 /**
- * v0 by Vercel.
- * @see https://v0.dev/t/luMbmuLQgI7
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+* v0 by Vercel.
+* @see https://v0.dev/t/luMbmuLQgI7
+* Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+*/
 export default function Component() {
   return (
     <div className="p-4 space-y-4">
@@ -56,7 +56,7 @@ export default function Component() {
           <p>Básico</p>
         </div>
         <div className="p-4 bg-yellow-200 rounded-lg">
-          <p className="font-bold">Plataformas y Herramientas para Invertir</p>
+          <p className="font-bold">Plataformas y herramientas para invertir</p>
           <p>Intermedio</p>
         </div>
         <div className="p-4 bg-blue-200 rounded-lg">
@@ -64,7 +64,7 @@ export default function Component() {
           <p>Básico</p>
         </div>
         <div className="p-4 bg-purple-200 rounded-lg">
-          <p className="font-bold">Casos Prácticos y Ejemplos de Inversiones</p>
+          <p className="font-bold">Casos prácticos y ejemplos de inversiones</p>
           <p>Básico</p>
         </div>
         <div className="p-4 bg-yellow-200 rounded-lg">
@@ -103,7 +103,6 @@ function GitlabIcon(props) {
   )
 }
 
-
 function InstagramIcon(props) {
   return (
     <svg
@@ -118,29 +117,9 @@ function InstagramIcon(props) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-    </svg>
-  )
-}
-
-
-function TwitterIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
     </svg>
   )
 }
